@@ -1,1 +1,697 @@
-hello !
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | NexTrade</title>
+    <!-- Metas -->
+    <meta name="author" content="Chinmay Mulay, Shreya Gawand, Shreyas Maiya">
+    </meta>
+    <meta name="description"
+        content="NexTrading is an AI based Algo Trading Platform allowing users to smartly invest in Stocks, Mutual Funds, F&Os, IPOs with minimal risk and promising high return">
+    <meta name="keywords" content="AI Algo Trading Platform, Stocks, Mutual Funds, F&Os, IPOs">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- diasyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <!-- Tailwind PlayCDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="bg-gray-900 text-white">
+        <!-- Header -->
+        <header class="absolute inset-x-0 top-0 z-50">
+            <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+                <div class="flex items-center lg:flex-1">
+                    <a href="#" class="flex items-center -m-1.5 p-1.5">
+                        <img class="h-12 w-auto" src="img/favicon.png" alt="NexTrade Logo">
+                        <span class="ml-2 text-xl font-bold text-white">NexTrade</span>
+                    </a>
+                </div>
+                <div class="hidden lg:flex lg:gap-x-12">
+                    <a href="#product" class="text-sm font-semibold leading-6 text-white">Product</a>
+                    <a href="#features" class="text-sm font-semibold leading-6 text-white">Features</a>
+                    <a href="#pricing" class="text-sm font-semibold leading-6 text-white">Pricing</a>
+                </div>
+                <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+                    <a href="404.html" class="text-sm font-semibold leading-6 text-white">Log in <span
+                            aria-hidden="true">&rarr;</span></a>
+                </div>
+            </nav>
+        </header>
+        <!-- Hero -->
+        <div class="relative isolate px-6 pt-14 lg:px-8">
+            <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+                aria-hidden="true">
+                <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+                </div>
+            </div>
+            <!-- Features -->
+            <div class="py-24 sm:py-32" id="product">
+                <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                    <h2 class="text-center text-base/7 font-semibold text-blue-500">
+                        NexTrade
+                    </h2>
+                    <p
+                        class="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+                        Investing just got Easier!
+                    </p>
+                    <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+                        <div class="relative lg:row-span-2">
+                            <div class="absolute inset-px rounded-lg bg-gray-300 lg:rounded-l-[2rem]"></div>
+                            <div
+                                class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                                <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+                                    <p
+                                        class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                        Mobile
+                                        friendly</p>
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Trade on the go with our fully optimized mobile platform. Access your portfolio
+                                        and execute trades anytime, anywhere.
+                                    </p>
+                                </div>
+                                <div
+                                    class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+                                    <div
+                                        class="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
+                                        <img class="size-full object-cover object-top" src="mockups/HomeScreen.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 lg:rounded-l-[2rem]">
+                            </div>
+                        </div>
+                        <div class="relative max-lg:row-start-1">
+                            <div class="absolute inset-px rounded-lg bg-gray-300 max-lg:rounded-t-[2rem]"></div>
+                            <div
+                                class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                                    <p
+                                        class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                        Performance</p>
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Leverage advanced algorithms for real-time analytics and lightning-fast
+                                        execution. Stay ahead of the market with our cutting-edge technology.
+                                    </p>
+                                </div>
+                                <div
+                                    class="flex flex-1 items-center justify-center px-8 max-lg:pb-12 max-lg:pt-10 sm:px-10 lg:pb-2">
+                                    <img class="w-full max-lg:max-w-xs"
+                                        src="https://tailwindui.com/plus/img/component-images/bento-03-performance.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div
+                                class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-t-[2rem]">
+                            </div>
+                        </div>
+                        <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+                            <div class="absolute inset-px rounded-lg bg-gray-300"></div>
+                            <div
+                                class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
+                                <div class="px-8 pt-8 sm:px-10 sm:pt-10">
+                                    <p
+                                        class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                        Security</p>
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Your data and investments are our top priority. Experience industry-leading
+                                        security measures to keep your assets safe.
+                                    </p>
+                                </div>
+                                <div class="flex flex-1 items-center [container-type:inline-size] max-lg:py-6 lg:pb-2">
+                                    <img class="h-[min(152px,40cqw)] object-cover object-center"
+                                        src="https://tailwindui.com/plus/img/component-images/bento-03-security.png"
+                                        alt="">
+                                </div>
+                            </div>
+                            <div class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5">
+                            </div>
+                        </div>
+                        <div class="relative lg:row-span-2">
+                            <div
+                                class="absolute inset-px rounded-lg bg-gray-300 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]">
+                            </div>
+                            <div
+                                class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                                <div class="px-8 pb-3 pt-8 sm:px-10 sm:pb-0 sm:pt-10">
+                                    <p
+                                        class="mt-2 text-lg/7 font-medium tracking-tight text-gray-950 max-lg:text-center">
+                                        Powerful APIs</p>
+                                    <p class="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Seamlessly integrate with our robust API to customize your trading strategies
+                                        and enhance your trading experience.
+                                    </p>
+                                </div>
+                                <div
+                                    class="relative min-h-[30rem] w-full grow [container-type:inline-size] max-lg:mx-auto max-lg:max-w-sm">
+                                    <div
+                                        class="absolute inset-x-10 bottom-0 top-10 overflow-hidden rounded-t-[12cqw] border-x-[3cqw] border-t-[3cqw] border-gray-700 bg-gray-900 shadow-2xl">
+                                        <img class="size-full object-cover object-top" src="mockups/AIScreen1.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="pointer-events-none absolute inset-px rounded-lg shadow ring-1 ring-black/5 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+                aria-hidden="true">
+                <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+                    style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-gray-900 py-24 sm:py-32">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <dl class="grid grid-cols-1 gap-x-8 gap-y-16 text-center lg:grid-cols-3">
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-400">Transactions every 24 hours</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">5.4 million
+                    </dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-400">Assets under holding</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl">₹13 trillion
+                    </dd>
+                </div>
+                <div class="mx-auto flex max-w-xs flex-col gap-y-4">
+                    <dt class="text-base leading-7 text-gray-400">New users annually</dt>
+                    <dd class="order-first text-3xl font-semibold tracking-tight text-white sm:text-5xl animate-number"
+                        data-target="69973">0</dd>
+                </div>
+            </dl>
+        </div>
+    </div>
+    <!-- Features 1.0 -->
+    <div class="overflow-hidden bg-gray-900 py-24 sm:py-32" id="features">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div
+                class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+                <div class="lg:pr-8 lg:pt-4">
+                    <div class="lg:max-w-lg">
+                        <h2 class="text-base font-semibold leading-7 text-blue-600">Transforming Your</h2>
+                        <p class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+                            Trading Experience
+                        </p>
+                        <p class="mt-6 text-lg leading-8 text-gray-400">
+                            Discover the powerful features designed to elevate your algorithm trading.
+                        </p>
+                        <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-400 lg:max-w-none">
+                            <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                                <dt class="inline font-semibold text-white">
+                                    <i class="fa-solid fa-check"></i>
+                                    Advanced AI Algorithms
+                                </dt>
+                                <dd class="inline">
+                                    AI to analyze market trends and make data-driven trading decisions. Our algorithms
+                                    adapt in real-time, optimizing your strategies for maximum profitability.
+                                </dd>
+                            </div>
+                            <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                                <dt class="inline font-semibold text-white">
+                                    <i class="fa-solid fa-check"></i>
+                                    Real-Time Analytics
+                                </dt>
+                                <dd class="inline">Stay informed with live market data and insights at your fingertips.
+                                    Our platform provides comprehensive analytics tools to help you track performance
+                                    and identify opportunities instantly.</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+                <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-400 lg:max-w-none">
+                    <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                        <dt class="inline font-semibold text-white">
+                            <i class="fa-solid fa-check"></i>
+                            Automated Execution
+                        </dt>
+                        <dd class="inline">Save time and capitalize on market opportunities with automated trade
+                            execution. Our platform ensures precision and speed, eliminating delays in placing your
+                            trades..</dd>
+                    </div>
+                    <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                        <dt class="inline font-semibold text-white">
+                            <i class="fa-solid fa-check"></i>
+                            Customizable Trading Strategies
+                        </dt>
+                        <dd class="inline">With our powerful API, you can tailor your trading strategies to fit
+                            your unique goals. .</dd>
+                    </div>
+                    <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                        <dt class="inline font-semibold text-white">
+                            <i class="fa-solid fa-check"></i>
+                            Multi-Asset Trading
+                        </dt>
+                        <dd class="inline">Expand your portfolio with access to diverse asset classes, including stocks,
+                            forex, cryptocurrencies, and commodities, all from a single, integrated platform.</dd>
+                    </div>
+                    <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                        <dt class="inline font-semibold text-white">
+                            <i class="fa-solid fa-check"></i>
+                            User-Friendly Interface
+                        </dt>
+                        <dd class="inline">Navigate your trading experience with ease. Our intuitive platform design
+                            ensures that traders of all levels can access and utilize powerful tools effortlessly.</dd>
+                    </div>
+                    <div class="feature-item relative pl-9 opacity-0 transform translate-y-10">
+                        <dt class="inline font-semibold text-white">
+                            <i class="fa-solid fa-check"></i>
+                            24/7 Customer Support
+                        </dt>
+                        <dd class="inline">Get help whenever you need it. Our dedicated support team is available around
+                            the clock to provide expert guidance and address any concerns.</dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- App Showcase -->
+    <div class="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8" id="pricing">
+        <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
+            <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+        </div>
+        <div class="mx-auto max-w-4xl text-center">
+            <h2 class="text-base font-semibold leading-7 text-blue-600">Mockups</h2>
+            <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">
+                Experience Lightning Fast Trades
+            </p>
+        </div>
+    </div>
+
+    <!-- Carousel Container -->
+    <div class="relative overflow-hidden w-full px-4 py-4">
+        <div class="carousel carousel-center rounded-box space-x-4 flex overflow-x-auto">
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/SignInScreen.png" alt="Sign-in screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/SignUpScreen.png" alt="Sign-up screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/HomeScreen.png" alt="Home screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/ProfileScreen.png" alt="Profile screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/NotificationScreen.png" alt="Notification screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/BankDetailsScreen.png" alt="Bank details screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/TnCScreen.png" alt="Terms and conditions screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/PPScreen.png" alt="Privacy policy screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/BuyStocksScreen1.png" alt="Buy stocks screen mockup 1" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/BuyQtyScreen1.png" alt="Buy quantity screen mockup 1" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/SellQtyScreen2.png" alt="Sell quantity screen mockup 2" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/AIScreen1.png" alt="AI screen mockup 1" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/AIScreen2.png" alt="AI screen mockup 2" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/WatchlistScreen.png" alt="Watchlist screen mockup" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/InsightsScreen1.png" alt="Insights screen mockup 1" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/InsightsScreen2.png" alt="Insights screen mockup 2" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/InsightsScreen3.png" alt="Insights screen mockup 3" />
+                </div>
+            </div>
+            <div class="carousel-item flex-shrink-0">
+                <div class="iphone-frame">
+                    <img src="mockups/InsightsScreen4.png" alt="Insights screen mockup 4" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing -->
+    <div class="relative isolate bg-gray-900 px-6 py-24 sm:py-32 lg:px-8" id="pricing">
+        <div class="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl" aria-hidden="true">
+            <div class="mx-auto aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+        </div>
+        <div class="mx-auto max-w-4xl text-center">
+            <h2 class="text-base font-semibold leading-7 text-blue-600">Pricing</h2>
+            <p class="mt-2 text-balance text-5xl font-semibold tracking-tight text-white sm:text-6xl">Choose the
+                right plan for you</p>
+        </div>
+        <p class="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-400 sm:text-xl/8">
+            We offer flexible options designed to empower your trading journey without hidden fees.
+        </p>
+        <div class="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-5xl lg:grid-cols-3">
+            <!-- Starter Plan -->
+            <div
+                class="bg-white/60 backdrop-blur-md shadow-lg p-8 ring-1 ring-gray-900/10 sm:p-10 rounded-tl-3xl rounded-bl-3xl">
+                <h3 id="tier-starter" class="text-base font-semibold leading-7 text-blue-600">Starter</h3>
+                <p class="mt-4 flex items-baseline gap-x-2">
+                    <span class="text-5xl font-semibold tracking-tight text-gray-900">Free</span>
+                    <span class="text-base text-gray-600">/trial</span>
+                </p>
+                <p class="mt-6 text-base leading-7 text-gray-900">Begin your journey with limited access to core
+                    features.</p>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-900 sm:mt-10">
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Limited access to AI features
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Mobile-friendly trading platform
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Customer support
+                    </li>
+                    <li class="flex gap-x-3 line-through text-gray-400">
+                        <i class="fa-solid fa-xmark"></i>
+                        Real-time market analytics
+                    </li>
+
+                </ul>
+                <a href="#" aria-describedby="tier-starter"
+                    class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-600 ring-1 ring-inset ring-blue-200 hover:bg-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 sm:mt-10">Start
+                    your free trial</a>
+            </div>
+
+            <!-- Personal Plan -->
+            <div class="bg-white/70 backdrop-blur-md shadow-lg p-8 ring-1 ring-gray-900/10 sm:p-10">
+                <h3 id="tier-personal" class="text-base font-semibold leading-7 text-blue-600">Personal</h3>
+                <p class="mt-4 flex items-baseline gap-x-2">
+                    <span class="text-5xl font-semibold tracking-tight text-gray-900">₹499</span>
+                    <span class="text-base text-gray-600">/month</span>
+                </p>
+                <p class="mt-6 text-base leading-7 text-gray-900">A great option to explore advanced trading with ease.
+                </p>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-900 sm:mt-10">
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Access to basic AI trading algorithms
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Real-time market analytics
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Mobile-friendly trading platform
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Standard customer support
+                    </li>
+                    <li class="flex gap-x-3 line-through text-gray-400">
+                        <i class="fa-solid fa-xmark"></i>
+                        Priority support and analytics
+                    </li>
+                </ul>
+                <a href="#" aria-describedby="tier-personal"
+                    class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-blue-600 ring-1 ring-inset ring-blue-200 hover:bg-blue-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 sm:mt-10">Get
+                    started today</a>
+            </div>
+
+            <!-- Enterprise Plan -->
+            <div
+                class="bg-white/80 backdrop-blur-md shadow-2xl p-8 ring-1 ring-gray-900/10 sm:p-10 rounded-tr-3xl rounded-br-3xl">
+                <h3 id="tier-enterprise" class="text-base font-semibold leading-7 text-blue-400">Enterprise</h3>
+                <p class="mt-4 flex items-baseline gap-x-2">
+                    <span class="text-5xl font-semibold tracking-tight text-gray-900">₹2,999</span>
+                    <span class="text-base text-gray-600">/month</span>
+                </p>
+                <p class="mt-6 text-base leading-7 text-gray-900">Dedicated support and infrastructure for your company.
+                </p>
+                <ul role="list" class="mt-8 space-y-3 text-sm leading-6 text-gray-900 sm:mt-10">
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Tailored solutions for institutional traders
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Advanced algorithm customization
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Dedicated account management
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Comprehensive security features
+                    </li>
+                    <li class="flex gap-x-3">
+                        <i class="fa-solid fa-check text-green-500"></i>
+                        Priority support and analytics
+                    </li>
+                </ul>
+                <a href="#" aria-describedby="tier-enterprise"
+                    class="mt-8 block rounded-md px-3.5 py-2.5 text-center text-sm font-semibold text-white bg-blue-500 hover:bg-blue-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500 sm:mt-10">Get
+                    started today</a>
+            </div>
+        </div>
+    </div>
+    <!-- Logo Cloud -->
+    <section class="bg-white dark:bg-gray-900">
+        <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+            <h2 class="text-base font-semibold leading-7 text-blue-600 text-center">trade as you like</h2>
+            <h2
+                class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
+                You’ll be in good company
+            </h2>
+            <div
+                class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                <a href="#" class="flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M16.015 14.378c0-.32-.135-.496-.344-.622c-.21-.12-.464-.135-.81-.135h-1.543v2.82h.675v-1.027h.72c.24 0 .39.024.478.125c.12.13.104.38.104.55v.35h.66v-.555c-.002-.25-.017-.376-.108-.516a.75.75 0 0 0-.33-.234l.02-.008a.78.78 0 0 0 .48-.747zm-.87.407l-.028-.002c-.09.053-.195.058-.33.058h-.81v-.63h.824c.12 0 .24 0 .33.05a.27.27 0 0 1 .15.255c0 .12-.045.215-.134.27zm5.152 1.052H19v.6h1.304c.676 0 1.05-.278 1.05-.884c0-.28-.066-.448-.187-.582c-.153-.133-.392-.193-.73-.207l-.376-.015c-.104 0-.18 0-.255-.03a.21.21 0 0 1-.15-.21c0-.09.017-.166.09-.21a.5.5 0 0 1 .272-.06h1.23v-.602h-1.35c-.704 0-.958.437-.958.84c0 .9.776.855 1.407.87c.104 0 .18.015.225.06c.046.03.082.106.082.18c0 .077-.035.15-.08.18c-.06.053-.15.07-.277.07M0 0v10.096L.81 8.22h1.75l.225.464V8.22h2.043l.45 1.02l.437-1.013h6.502c.295 0 .56.057.756.236v-.23h1.787v.23c.307-.17.686-.23 1.12-.23h2.606l.24.466v-.466h1.918l.254.465v-.466h1.858v3.948H20.87l-.36-.6v.585h-2.353l-.256-.63h-.583l-.27.614h-1.213c-.48 0-.84-.104-1.08-.24v.24h-2.89v-.884c0-.12-.03-.12-.105-.135h-.105v1.036H6.067v-.48l-.21.48H4.69l-.202-.48v.465H2.235l-.256-.624H1.4l-.256.624H0V24h23.786v-7.108c-.27.135-.613.18-.973.18H21.09v-.255c-.21.165-.57.255-.914.255H14.71v-.9c0-.12-.018-.12-.12-.12h-.075v1.022h-1.8v-1.066c-.298.136-.643.15-.928.136h-.214v.915h-2.18l-.54-.617l-.57.6H4.742v-3.93h3.61l.518.602l.554-.6h2.412c.28 0 .74.03.942.225v-.24h2.177c.202 0 .644.045.903.225v-.24h3.265v.24c.163-.164.508-.24.803-.24h1.89v.24c.194-.15.464-.24.84-.24h1.176V0zm21.156 14.955l.01.016c.01.01.024.01.032.02zm2.672-1.873h.065v.555h-.065zm.037 1.948v-.005c-.03-.025-.046-.048-.075-.07c-.15-.153-.39-.215-.764-.225l-.36-.012a.9.9 0 0 1-.27-.03a.21.21 0 0 1-.15-.21q0-.136.09-.204c.076-.045.15-.05.27-.05h1.223v-.588h-1.283c-.69 0-.96.437-.96.84c0 .9.78.855 1.41.87c.104 0 .18.015.224.06c.046.03.076.106.076.18c0 .07-.034.138-.09.18c-.045.056-.136.07-.27.07h-1.288v.605h1.287c.42 0 .734-.118.9-.36h.03c.09-.134.135-.3.135-.523c0-.24-.045-.39-.135-.526zm-5.268-.822v-.583h-2.235v2.833h2.235v-.585h-1.57v-.57h1.533v-.584h-1.532v-.51M13.51 8.787h.685V11.6h-.684zm-.384.756l-.007.006c0-.314-.13-.5-.34-.624c-.217-.125-.47-.135-.81-.135H10.43v2.82h.674v-1.034h.72c.24 0 .39.03.487.12c.122.136.107.378.107.548v.354h.677v-.553c0-.25-.016-.375-.11-.516a.8.8 0 0 0-.33-.237c.172-.07.472-.3.472-.75zm-.855.396h-.015c-.09.054-.195.056-.33.056H11.1v-.623h.825c.12 0 .24.004.33.05c.09.04.15.128.15.25s-.047.22-.134.266zm3.649-.566h.632v-.6h-.644c-.464 0-.804.105-1.02.33c-.286.3-.362.69-.362 1.11c0 .512.123.833.36 1.074c.232.238.645.31.97.31h.78l.255-.627h1.39l.262.627h1.36v-2.11l1.272 2.11h.95l.002.002V8.786h-.684v1.963l-1.18-1.96h-1.02V11.4L18.11 8.744h-1.004l-.943 2.22h-.3c-.177 0-.362-.03-.468-.134c-.125-.15-.186-.36-.186-.662c0-.285.08-.51.194-.63c.133-.135.272-.165.516-.165zm1.668-.108l.464 1.118v.002h-.93zM2.38 10.97l.254.628H4V9.393l.972 2.205h.584l.973-2.202l.015 2.202h.69v-2.81H6.118l-.807 1.904l-.876-1.905H3.343v2.663L2.205 8.787h-.997L.01 11.597h.72l.26-.626zm-.688-1.705l.46 1.118l-.003.002h-.915l.457-1.12zm10.164 4.355H9.714l-.85.923l-.825-.922H5.346v2.82H8l.855-.932l.824.93h1.302v-.94h.838c.6 0 1.17-.164 1.17-.945l-.006-.003c0-.78-.598-.93-1.128-.93zM7.67 15.853l-.014-.002H6.02v-.557h1.47v-.574H6.02v-.51H7.7l.733.82l-.764.824zm2.642.33l-1.03-1.147l1.03-1.108v2.253zm1.553-1.258h-.885v-.717h.885c.24 0 .42.098.42.344c0 .243-.15.372-.42.372zM9.967 9.373v-.586H7.73V11.6h2.237v-.58H8.4v-.564h1.527V9.88H8.4v-.507" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width=" " height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M11.05 12.014h.741c.038-.214-.03-.397-.267-.397s-.405.122-.474.397m-4.177.397l-.037-.006c-.11-.02-.304-.056-.474.06c-.191.13-.245.358-.046.435c.191.073.473-.053.512-.252zm13.6-.069c.062-.198.028-.446-.038-.534c-.183-.244-.604-.051-.733.428c-.084.313.1.55.306.55c.221 0 .358-.176.465-.444m-3.52.069l-.037-.006c-.11-.02-.305-.056-.474.06c-.191.13-.245.358-.046.435c.191.073.473-.053.511-.252z" />
+                        <path fill="currentColor"
+                            d="M16.081 6.08a5.92 5.92 0 0 1 0 11.84a5.86 5.86 0 0 1-3.729-1.329a6.4 6.4 0 0 0 1.69-2.754h-.492a5.9 5.9 0 0 1-1.554 2.448a5.9 5.9 0 0 1-1.543-2.445h-.492a6.4 6.4 0 0 0 1.672 2.747a5.88 5.88 0 0 1-3.712 1.333a5.92 5.92 0 0 1 0-11.84c1.41 0 2.695.51 3.712 1.333a6.4 6.4 0 0 0-1.672 2.747h.492a5.9 5.9 0 0 1 1.543-2.445a5.9 5.9 0 0 1 1.554 2.448h.492a6.4 6.4 0 0 0-1.69-2.754a5.86 5.86 0 0 1 3.73-1.329m1.978 5.116l-.409 2.19h.602l.185-1.002c.168-.622.427-.62.579-.617h.023l.162-.57c-.301 0-.479.107-.571.215l-.054-.216zm-7.734-.556H9.73l-.412 2.077c-.115.595.336.68.473.68a.85.85 0 0 0 .443-.108l.038-.442c-.343.053-.359-.1-.328-.268l.168-.886h.305l.107-.473h-.32zm1.168.55c-.933 0-1.076.897-1.104 1.077l-.003.014c-.023.138-.038 1.108.993 1.108c.252.007.618-.023.764-.1l.091-.45a4 4 0 0 1-.672.053h-.02c-.238 0-.596.001-.53-.48h1.298c.07-.352.23-1.223-.817-1.223m-2.191.076c-.247-.094-.447-.088-.55-.085H8.71c-.101 0-.797 0-.905.52c-.084.405.064.572.206.634c.15.065.257.126.348.178q.07.042.134.074c.15.075.123.328-.077.328l-.072.003c-.154.009-.468.026-.714-.056l-.084.45c.275.077.496.077.702.077h.023c.185.002.837.008.931-.619c.049-.32-.091-.466-.206-.534a3.4 3.4 0 0 0-.427-.237c-.122-.054-.214-.26.007-.32c.138-.016.42-.016.588.03zm-3.505-.52H4.82l-.725 1.604l-.115-1.604h-.954l-.512 2.643h.596l.366-1.91l.16 1.91h.566l.832-1.864l-.351 1.864H5.3zm.068.986l.144-.018c.18-.023.441-.057.597-.051l.06.001c.187.004.369.008.307.304q-.031.002-.1 0c-.313-.01-1.144-.035-1.29.764c-.069.45.32.68.626.664c.305-.015.39-.053.496-.13l.077.123h.557l.237-1.192c.061-.297.16-1.015-.84-1.015l-.096.003c-.162.004-.36.01-.683.073zm9.286-.481c.199 0 .305.015.458.106l.39-.389c-.153-.168-.329-.333-.817-.351c-.413-.016-1.12.285-1.344 1.107c-.306 1.115.366 1.665.985 1.665c.328 0 .527-.046.725-.138l-.176-.534c-.61.206-1.046-.107-.946-.741c.083-.536.526-.726.725-.726m5.452.119c-.08-.084-.172-.18-.382-.18h-.054c-.328-.004-.801-.009-1.076.931c-.194.663.199 1.268.626 1.268c.199-.008.397-.092.52-.176l.076.176h.641l.52-2.78h-.627l-.16.84a1 1 0 0 1-.084-.08m-4.658.362l.144-.018c.18-.023.44-.057.597-.051l.06.001c.187.004.369.008.306.304q-.03.002-.1 0c-.312-.01-1.143-.035-1.29.764c-.068.45.321.68.627.664c.305-.015.389-.053.496-.13l.077.123h.557l.237-1.192c.06-.297.16-1.015-.84-1.015l-.096.003c-.162.004-.36.01-.683.073zm-3.213-.512l-.405 2.169h.596l.183-.993c.165-.61.426-.606.576-.604h.027l.153-.572c-.297 0-.473.107-.565.214l-.053-.214z" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M9.112 8.262L5.97 15.758H3.92L2.374 9.775c-.094-.368-.175-.503-.461-.658C1.447 8.864.677 8.627 0 8.479l.046-.217h3.3a.904.904 0 0 1 .894.764l.817 4.338l2.018-5.102zm8.033 5.049c.008-1.979-2.736-2.088-2.717-2.972c.006-.269.262-.555.822-.628a3.66 3.66 0 0 1 1.913.336l.34-1.59a5.2 5.2 0 0 0-1.814-.333c-1.917 0-3.266 1.02-3.278 2.479c-.012 1.079.963 1.68 1.698 2.04c.756.367 1.01.603 1.006.931c-.005.504-.602.725-1.16.734c-.975.015-1.54-.263-1.992-.473l-.351 1.642c.453.208 1.289.39 2.156.398c2.037 0 3.37-1.006 3.377-2.564m5.061 2.447H24l-1.565-7.496h-1.656a.88.88 0 0 0-.826.55l-2.909 6.946h2.036l.405-1.12h2.488zm-2.163-2.656l1.02-2.815l.588 2.815zm-8.16-4.84l-1.603 7.496H8.34l1.605-7.496z" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M2 10.37h.87c.162 0 .324.015.471.037c.767.11 1.37.516 1.37 1.592c0 1.068-.603 1.48-1.37 1.584c-.147.022-.31.03-.471.03H2zm19.72.494c.118 0 .206-.089.206-.221c0-.133-.088-.229-.206-.229s-.206.096-.206.229c0 .132.088.22.206.22m0-.501a.28.28 0 1 1 0 .56a.28.28 0 0 1 0-.56m0 .324l-.015-.022h-.037v.133h-.059v-.317h.126c.073 0 .118.03.118.095c0 .052-.037.082-.089.089l.089.133h-.067zm0-.162h.007c.03 0 .06.007.06.044c0 .044-.03.052-.06.052h-.058v-.096zm-2.049 1.223c.244-.03.442-.133.442-.442c0-.295-.198-.376-.442-.413h-.442v.87h.206c.082 0 .163-.008.236-.015m0-1.37c.575.022 1.106.14 1.106.876c0 .384-.244.7-.649.752c.17.022.273.192.332.34l.508 1.266h-.707l-.383-1.016c-.06-.148-.11-.236-.206-.288a.5.5 0 0 0-.236-.044h-.207v1.348h-.633V10.37h.685c.125 0 .265 0 .39.008m-5.902.965q.11.285.11.648c0 .229-.037.45-.11.649c-.229.626-.782 1.031-1.54 1.031c-1.017 0-1.666-.692-1.666-1.68c0-.995.663-1.672 1.666-1.672c.758 0 1.311.397 1.54 1.024m0-.685l1.12 2.954h.236l1.245-3.242h-.663l-.664 1.71l-.707-1.71h-.678zm2.763-.288h1.887v.523h-1.246v.796h1.135v.501h-1.135v.914h1.253v.508h-1.894zm-13.19.575a1.1 1.1 0 0 0-.347-.052h-.361v2.211h.36q.18-.002.347-.059c.39-.14.708-.501.708-1.046c0-.546-.317-.921-.708-1.054m1.62-.575h.642v3.242h-.642zm2.698.862c-.221-.14-.457-.28-.708-.31c-.228-.029-.471.038-.471.362c0 .56 1.4.324 1.4 1.407c0 .708-.56 1.054-1.201.98c-.347-.037-.546-.14-.818-.324v-.663c.213.118.53.346.78.39c.273.045.568-.037.568-.331c0-.626-1.393-.369-1.393-1.437c0-.722.546-.988 1.106-.988c.28 0 .523.104.737.295zm2.74 2.056c-.161.207-.544.324-.802.347c-.995.066-1.658-.487-1.658-1.585c0-1.105.582-1.754 1.658-1.695c.213.008.56.082.788.273v.62c-.273-.17-.553-.288-.788-.296c-.656-.022-.995.39-.995 1.054c0 .663.317 1.032.995 1.002c.265-.007.663-.22.803-.339z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="#" class="flex justify-center items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M11.5 14.692h.885v-2.076h3.5V9.308H11.5zm5.77 0h.884V9.308h-.885zm-4.885-2.961v-1.539H15v1.539zM5.73 14.692h4.385V9.308H9.23v4.5H6.616v-4.5H5.73zM3 19V5h18v14zm1-1h16V6H4zm0 0V6z" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leadership and Newsletter -->
+    <div class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32">
+        <!-- Leadership -->
+        <div class="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-3">
+            <div class="max-w-xl">
+                <h2 class="text-pretty text-3xl font-semibold tracking-tight text-white sm:text-4xl">Meet our leadership
+                </h2>
+                <p class="mt-6 text-lg leading-8 text-gray-400">We’re a dynamic group of individuals who are passionate
+                    about what we do and dedicated to delivering the best results for our clients.</p>
+            </div>
+            <ul role="list" class="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img class="h-16 w-16 rounded-full" src="img/chinmay-photo.webp" alt="Photo of Chinmay Mulay">
+                        <div>
+                            <h3 class="text-base font-semibold leading-7 tracking-tight text-white">Chinmay Mulay</h3>
+                            <p class="text-sm font-semibold leading-6 text-indigo-600">A70405223206</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img class="h-16 w-16 rounded-full" src="img/shreya-photo.webp" alt="Photo of Shreya Gawand">
+                        <div>
+                            <h3 class="text-base font-semibold leading-7 tracking-tight text-white">Shreya Gawand</h3>
+                            <p class="text-sm font-semibold leading-6 text-indigo-600">A70405223151</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img class="h-16 w-16 rounded-full" src="img/shreyas-photo.webp" alt="Photo of Shreyas Maiya">
+                        <div>
+                            <h3 class="text-base font-semibold leading-7 tracking-tight text-white">Shreyas Maiya</h3>
+                            <p class="text-sm font-semibold leading-6 text-indigo-600">A70405223203</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="flex items-center gap-x-6">
+                        <img class="h-16 w-16 rounded-full" src="img/namrata-photo.webp" alt="Photo of Namrata">
+                        <div>
+                            <h3 class="text-base font-semibold leading-7 tracking-tight text-white">Namrata</h3>
+                            <p class="text-sm font-semibold leading-6 text-indigo-600">A70405223148</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- Space -->
+        <div class="mt-24"></div>
+        <!-- Newsletter -->
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
+                <div class="max-w-xl lg:max-w-lg">
+                    <h2 class="text-4xl font-semibold tracking-tight text-white">Stay Ahead of the Curve</h2>
+                    <p class="mt-4 text-lg text-gray-300">
+                        Join our community of traders and receive the latest insights straight to your inbox!
+                    </p>
+                    <div class="mt-6 flex max-w-md gap-x-4">
+                        <label for="email-address" class="sr-only">Email address</label>
+                        <input id="email-address" name="email" type="email" autocomplete="email" required
+                            class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-blue-500 sm:text-sm sm:leading-6"
+                            placeholder="Enter your email">
+                        <button type="button" id="subscribe-button"
+                            class="flex-none rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-500">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+                <!-- Toast container (hidden by default) -->
+                <div id="toast-container" class="fixed bottom-5 right-5 space-y-4 z-50">
+                    <!-- Toast Notification will be appended here -->
+                </div>
+
+                <dl class="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:pt-2">
+                    <div class="flex flex-col items-start">
+                        <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                            <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                            </svg>
+                        </div>
+                        <dt class="mt-4 font-semibold text-white">Weekly articles</dt>
+                        <dd class="mt-2 leading-7 text-gray-400">
+                            Gain exclusive access to in-depth articles on market trends, trading strategies, and
+                            algorithm
+                            updates. Our expert insights will help you make informed decisions.
+                        </dd>
+                    </div>
+                    <div class="flex flex-col items-start">
+                        <div class="rounded-md bg-white/5 p-2 ring-1 ring-white/10">
+                            <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" aria-hidden="true" data-slot="icon">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M10.05 4.575a1.575 1.575 0 1 0-3.15 0v3m3.15-3v-1.5a1.575 1.575 0 0 1 3.15 0v1.5m-3.15 0 .075 5.925m3.075.75V4.575m0 0a1.575 1.575 0 0 1 3.15 0V15M6.9 7.575a1.575 1.575 0 1 0-3.15 0v8.175a6.75 6.75 0 0 0 6.75 6.75h2.018a5.25 5.25 0 0 0 3.712-1.538l1.732-1.732a5.25 5.25 0 0 0 1.538-3.712l.003-2.024a.668.668 0 0 1 .198-.471 1.575 1.575 0 1 0-2.228-2.228 3.818 3.818 0 0 0-1.12 2.687M6.9 7.575V12m6.27 4.318A4.49 4.49 0 0 1 16.35 15m.002 0h-.002" />
+                            </svg>
+                        </div>
+                        <dt class="mt-4 font-semibold text-white">No spam</dt>
+                        <dd class="mt-2 leading-7 text-gray-400">
+                            We respect your inbox. Expect only high-quality content, with no spam—just the information
+                            you
+                            need to enhance your trading experience.
+                        </dd>
+                    </div>
+                </dl>
+            </div>
+        </div>
+        <!-- BG-SVG -->
+        <div class="absolute left-1/2 top-0 -z-10 -translate-x-1/2 blur-3xl xl:-top-6" aria-hidden="true">
+            <div class="aspect-[1155/678] w-[72.1875rem] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30"
+                style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 py-6 border-t border-gray-700">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 text-white flex justify-between items-center">
+            <p>&copy; 2024 NexTrade. All rights reserved.</p>
+            <div class="space-x-6">
+                <a href="terms.html" class="text-sm hover:text-gray-400">Terms and Conditions</a>
+                <a href="policy.html" class="text-sm hover:text-gray-400">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>

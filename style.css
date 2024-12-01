@@ -1,0 +1,21 @@
+.iphone-frame {
+    width: 440px; /* Width of iPhone 16 Pro Max (adjust as needed) */
+    height: 956px; /* Increased height by 5px */
+    border-radius: 55px; /* Rounded corners, more pronounced for a modern iPhone */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00000006; /* Black background for the iPhone screen */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    position: relative;
+    margin: 0 auto; /* Center the phone frame */
+    transform: translateY(10px); /* To create a slight floating effect */
+    border: 3px solid #000; /* Added border for a more defined edge */
+}
+
+.iphone-frame img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensure the image fits within the frame without distortion */
+}
